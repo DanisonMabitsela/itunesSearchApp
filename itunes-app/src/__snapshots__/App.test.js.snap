@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches the snapshot 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    iTunes Search
+  </h1>
+  <div
+    className="search-container"
+  >
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <select
+      onChange={[Function]}
+      value="all"
+    >
+      <option
+        value="all"
+      >
+        All
+      </option>
+      <option
+        value="movie"
+      >
+        Movies
+      </option>
+      <option
+        value="podcast"
+      >
+        Podcasts
+      </option>
+      <option
+        value="music"
+      >
+        Music
+      </option>
+      <option
+        value="audiobook"
+      >
+        Audiobooks
+      </option>
+      <option
+        value="shortFilm"
+      >
+        Short Films
+      </option>
+      <option
+        value="tvShow"
+      >
+        TV Shows
+      </option>
+      <option
+        value="software"
+      >
+        Software
+      </option>
+      <option
+        value="ebook"
+      >
+        eBooks
+      </option>
+    </select>
+    <button
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+  <div
+    className="search-results"
+  />
+  <div
+    className="favourites-container"
+  >
+    <h2>
+      Favourites
+    </h2>
+  </div>
+  <a
+    href="https://reactjs.org"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Learn React
+  </a>
+</div>
+`;
